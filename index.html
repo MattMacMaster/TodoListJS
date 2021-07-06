@@ -14,13 +14,18 @@
 <body>
     <header>Todo List</header>
 
-    <div id="Page">
-        <div>SideBar</div>
-        <div id="main">
-            TODO
-            <div id="todos">
+    <div id="main">
+        <div class="sidenav">
+            <a href="#" class="selected">Tasks</a>
+            <a href="#">Projects</a>
+            <a href="#" class="create">+ Create Project</a>
 
-            </div>
+        </div>
+        <div id="tasks">
+            <div class="cardName">Current Todo's</div>
+            <button class="createBtn">+ Create Todo</button>
+            <div id="todos" class="tasks"></div>
+
         </div>
         <div id="Footer" class="footer">
             <a target="_blank" href="https://github.com/MattMacMaster/TodoListJS">
